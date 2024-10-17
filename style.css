@@ -1,0 +1,673 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    float: left;
+    width: 100%;
+}
+
+.slider img {
+    width: 100%;
+    height: 400px; /* Mantenha a altura original */
+    object-fit: cover; /* Faz com que a imagem cubra todo o espaço disponível */
+    text-align: center;
+}
+
+.clear{
+    clear: both;
+}
+
+.content{
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+.main_header{
+    background: #ffffff;
+}
+
+.main_header .content{
+    padding: 20px;
+}
+
+/*SEARCH*/
+
+/* pesquisa */
+.main_header_search {
+    width: 20%;
+    float: right;
+}
+
+
+/* borda da pesquisa */
+.main_header_search input {
+    float: left;
+    padding: 1px;
+    margin-top: 8px;
+    border: 1px solid #0080ce;
+}
+
+/* tamanho pesquisa */
+.main_header_search .s {
+    border-right: 0;
+    width: 80%;
+}
+
+/* tamanho botão pesquisa */
+.main_header_search .b {
+    width: 15%; /* Reduz a largura do botão */
+    background: #0080ce;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    padding: 2px 2px; /* Ajuste o primeiro valor para mudar o padding superior */
+    margin-top: 8px; /* Diminua este valor para aproximar o botão do campo acima */
+}
+
+.main_header_search .b:hover {
+    background: #00ce0a;
+    border: none;
+}
+
+
+/* cor do menu */
+.main_menu{
+    background: #0080ce;
+}
+
+/* tamanho menu */
+.main_menu .content{
+    padding: 0;
+}
+
+.main_menu ul{
+    list-style: none;
+}
+
+.main_menu li{
+    float: left;
+}
+
+/* letra do menu */
+.main_menu li a{
+    float: left;
+    padding: 15px;
+    color: #ffffff;
+    font-size: 0.875em;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.main_menu li a:hover{
+    background: #00CED1;
+}
+
+/* tamanho do jogo principal */
+.lastnews{
+    float: left;
+    width: 65.625%;
+    padding: 15px;
+}
+
+/* linha e escrita  */
+.title-section{
+    font-size: 1.125em;
+    font-weight: 300;
+    color:  #00CED1;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #00CED1;
+}
+
+/*  */
+.lastnews-destaque{
+    float:left;
+    width: 100%;
+    margin-bottom: 15px;
+    flex-wrap: wrap; /* Faz o conteúdo que não cabe ao lado quebrar para baixo */
+}
+
+.lastnews-destaque .index1 {
+    width: 100%; /* Largura total do elemento */
+    height: 300px; /* Altura fixa de 300px */
+    background: url(img/index/index1.jpg);
+    margin: 0 auto 20px; /* Centraliza horizontalmente e adiciona espaço na parte inferior */
+    background-repeat: no-repeat;
+    background-size: cover; /* Mantém a imagem cobrindo o fundo */
+    background-position: center; /* Centraliza a imagem */
+}
+
+.lastnews-article .index2{
+    float: left;
+    width: 100%;
+    height: 150px;
+    margin-bottom: 20px;
+    background: url(img/index/index2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.lastnews-article .index3{
+    float: right;
+    width: 100%;
+    height: 150px;
+    margin-bottom: 20px;
+    background: url(img/index/index3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.lastnews-article .index4{
+    float: left;
+    width: 100%;
+    height: 150px;
+    margin-bottom: 20px;
+    background: url(img/index/index4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.lastnews-article .index5{
+    float: right;
+    width: 100%;
+    height: 150px;
+    margin-bottom: 20px;
+    background: url(img/index/index5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.lastnews-destaque .jogo1{
+    float: left;
+    width: 100%;
+    height: 300px;
+    background: url(img/jogo/jogo1.jpg);
+    margin-bottom: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.lastnews-destaque .jogo2{
+    float: left;
+    width: 100%;
+    height: 300px;
+    background: url(img/jogo/jogo2.jpg);
+    margin-bottom: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.lastnews-destaque .jogo3{
+    float: left;
+    width: 100%;
+    height: 300px;
+    background: url(img/jogo/jogo3.jpg);
+    margin-bottom: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.lastnews-destaque .jogo4{
+    float: left;
+    width: 100%;
+    height: 300px;
+    background: url(img/jogo/jogo4.jpg);
+    margin-bottom: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.lastnews-destaque .jogo5{
+    float: left;
+    width: 100%;
+    height: 300px;
+    background: url(img/jogo/jogo5.jpg);
+    margin-bottom: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.lastnews-destaque .artigo1{
+    float: left;
+    width: 100%;
+    height: 300px;
+    background: url(img/artigo/artigo1.jpg);
+    margin-bottom: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.lastnews-destaque .artigo2{
+    float: left;
+    width: 100%;
+    height: 300px;
+    background: url(img/artigo/artigo2.jpg);
+    margin-bottom: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.lastnews-destaque .artigo3{
+    float: left;
+    width: 100%;
+    height: 300px;
+    background: url(img/artigo/artigo3.jpg);
+    margin-bottom: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.lastnews-destaque .artigo4{
+    float: left;
+    width: 100%;
+    height: 300px;
+    background: url(img/artigo/artigo4.jpg);
+    margin-bottom: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.lastnews-destaque .artigo5{
+    float: left;
+    width: 100%;
+    height: 300px;
+    background: url(img/artigo/artigo5.jpg);
+    margin-bottom: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.lastnews-destaque h1{
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+
+.lastnews-destaque p{
+    margin-bottom: 5px;
+}
+
+.lastnews-article{
+    float: left;
+    width: 35%;
+    margin-right: 15%;
+    margin-bottom: 30px;
+}
+
+.lastnews-article header{
+    margin-bottom: 10px;
+}
+
+.lastnews-destaque .loja1{
+    width: 100%; /* Largura total do elemento */
+    height: 300px; /* Altura fixa de 300px */
+    background: url(img/loja/loja1.jpg);
+    margin: 0 auto 20px; /* Centraliza horizontalmente e adiciona espaço na parte inferior */
+    background-repeat: no-repeat;
+    background-size: cover; /* Mantém a imagem cobrindo o fundo */
+    background-position: center; /* Centraliza a imagem */
+}
+
+.lastnews-article .loja21 {
+    width: 350px; /* Largura fixa */
+    height: 150px; /* Altura fixa */
+    margin: 0 auto 20px; /* Centraliza horizontalmente e adiciona espaço na parte inferior */
+    background: url(img/loja/loja21.jpg) no-repeat center/cover; /* Centraliza a imagem de fundo */
+}
+
+.lastnews-article .loja22 {
+    width: 350px;
+    height: 150px;
+    margin: 0 auto 20px;
+    background: url(img/loja/loja22.jpg) no-repeat center/cover;
+}
+
+.lastnews-article .loja23 {
+    width: 350px;
+    height: 150px;
+    margin: 0 auto 20px;
+    background: url(img/loja/loja23.jpg) no-repeat center/cover;
+}
+
+.lastnews-article .loja24 {
+    width: 350px;
+    height: 150px;
+    margin: 0 auto 20px;
+    background: url(img/loja/loja24.jpg) no-repeat center/cover;
+}
+
+.lastnews-article .loja31 {
+    width: 350px;
+    height: 150px;
+    margin: 0 auto 20px;
+    background: url(img/loja/loja31.jpg) no-repeat center/cover;
+}
+
+.lastnews-article .loja32 {
+    width: 350px;
+    height: 150px;
+    margin: 0 auto 20px;
+    background: url(img/loja/loja32.jpg) no-repeat center/cover;
+}
+
+.lastnews-article .loja33 {
+    width: 350px;
+    height: 150px;
+    margin: 0 auto 20px;
+    background: url(img/loja/loja33.jpg) no-repeat center/cover;
+}
+
+.lastnews-article .loja34 {
+    width: 350px;
+    height: 150px;
+    margin: 0 auto 20px;
+    background: url(img/loja/loja34.jpg) no-repeat center/cover;
+}
+
+.lastnews-article .loja41 {
+    width: 350px;
+    height: 150px;
+    margin: 0 auto 20px;
+    background: url(img/loja/loja41.jpg) no-repeat center/cover;
+}
+
+.lastnews-article .loja42 {
+    width: 350px;
+    height: 150px;
+    margin: 0 auto 20px;
+    background: url(img/loja/loja42.jpg) no-repeat center/cover;
+}
+
+.lastnews-article .loja43 {
+    width: 350px;
+    height: 150px;
+    margin: 0 auto 20px;
+    background: url(img/loja/loja43.jpg) no-repeat center/cover;
+}
+
+.lastnews-article .loja44 {
+    width: 350px;
+    height: 150px;
+    margin: 0 auto 20px;
+    background: url(img/loja/loja44.jpg) no-repeat center/cover;
+}
+
+.lastnews-article .loja51 {
+    width: 350px;
+    height: 150px;
+    margin: 0 auto 20px;
+    background: url(img/loja/loja51.jpg) no-repeat center/cover;
+}
+
+.lastnews-article .loja52 {
+    width: 350px;
+    height: 150px;
+    margin: 0 auto 20px;
+    background: url(img/loja/loja52.jpg) no-repeat center/cover;
+}
+
+.lastnews-article .loja53 {
+    width: 350px;
+    height: 150px;
+    margin: 0 auto 20px;
+    background: url(img/loja/loja53.jpg) no-repeat center/cover;
+}
+
+.lastnews-article .loja54 {
+    width: 350px;
+    height: 150px;
+    margin: 0 auto 20px;
+    background: url(img/loja/loja54.jpg) no-repeat center/cover;
+}
+
+
+.lastnews-destaque .loja6{
+    float: left;
+    width: 100%;
+    height: 300px;
+    background: url(img/loja/loja6.jpg);
+    margin-bottom: 15px;
+}
+
+.lastnews-destaque .contato1{
+    width: 100%; /* Largura total do elemento */
+    height: 300px; /* Altura fixa de 300px */
+    background: url(img/contato/contato1.jpg);
+    margin: 0 auto 20px; /* Centraliza horizontalmente e adiciona espaço na parte inferior */
+    background-repeat: no-repeat;
+    background-size: cover; /* Mantém a imagem cobrindo o fundo */
+    background-position: center; /* Centraliza a imagem */
+}
+
+.lastnews-destaque .sobrenos1{
+    width: 100%; /* Largura total do elemento */
+    height: 300px; /* Altura fixa de 300px */
+    background: url(img/sobrenos/sobrenos1.jpg);
+    margin: 0 auto 20px; /* Centraliza horizontalmente e adiciona espaço na parte inferior */
+    background-repeat: no-repeat;
+    background-size: cover; /* Mantém a imagem cobrindo o fundo */
+    background-position: center; /* Centraliza a imagem */
+}
+
+.lastnews-article .sobrenos2{
+    float: left;
+    width: 320px;
+    height: 150px;
+    margin-bottom: 20px;
+    background: url(img/sobrenos/sobrenos2.jpg) no-repeat center/cover;
+}
+
+.lastnews-article .sobrenos3{
+    float: left;
+    width: 320px;
+    height: 150px;
+    margin-bottom: 20px;
+    background: url(img/sobrenos/sobrenos3.jpg) no-repeat center/cover;
+}
+
+.lastnews-destaque .sobrenos4{
+    width: 100%; /* Largura total do elemento */
+    height: 300px; /* Altura fixa de 300px */
+    background: url(img/sobrenos/sobrenos4.jpg);
+    margin: 0 auto 20px; /* Centraliza horizontalmente e adiciona espaço na parte inferior */
+    background-repeat: no-repeat;
+    background-size: cover; /* Mantém a imagem cobrindo o fundo */
+    background-position: center; /* Centraliza a imagem */
+}
+
+.lastnews-destaque .sobrenos5{
+    width: 100%; /* Largura total do elemento */
+    height: 300px; /* Altura fixa de 300px */
+    background: url(img/sobrenos/sobrenos5.jpg);
+    margin: 0 auto 20px; /* Centraliza horizontalmente e adiciona espaço na parte inferior */
+    background-repeat: no-repeat;
+    background-size: cover; /* Mantém a imagem cobrindo o fundo */
+    background-position: center; /* Centraliza a imagem */
+}
+
+.lastnews-destaque .video1{
+    width: 100%; /* Largura total do elemento */
+    height: 300px; /* Altura fixa de 300px */
+    background: url(img/video/video1.jpg);
+    margin: 0 auto 20px; /* Centraliza horizontalmente e adiciona espaço na parte inferior */
+    background-repeat: no-repeat;
+    background-size: cover; /* Mantém a imagem cobrindo o fundo */
+    background-position: center; /* Centraliza a imagem */
+}
+
+.lastnews-destaque .video2 {
+    width: 100%; /* Faz o vídeo ocupar 80% do espaço, permitindo o outro conteúdo ao lado */
+    margin-bottom: 15px;
+}
+
+.lastnews-article .video3{
+    float: left;
+    width: 320px;
+    height: 150px;
+    margin-bottom: 20px;
+    background: url(img/video/video2.jpg);
+}
+
+.lastnews-article .video4{
+    float: left;
+    width: 320px;
+    height: 150px;
+    margin-bottom: 20px;
+    background: url(img/video/video3.jpg);
+}
+
+.lastnews-article h1{
+    margin: 10px 0;
+    font-size: 1em;
+}
+
+.lastnews-article p{
+    margin-bottom: 15px;
+    font-size: 0.875em;
+}
+.sidebar{
+    float: right;
+    width: 300px;
+}
+
+.sidebar header{
+    margin-top: 15px;
+}
+
+.sidebar-widget{
+    float: left;
+    width: 300px;
+    margin-bottom: 28px;
+    padding-bottom: 10px;
+    border-bottom: 0px solid #3a465f;
+}
+
+.sidebar-widget .produto1{
+    float: left;
+    width: 300px;
+    height: 100px;
+    background: url(img/produto/produto1.png);
+}
+
+.sidebar-widget .produto2{
+    float: left;
+    width: 300px;
+    height: 100px;
+    background: url(img/produto/produto2.png);
+}
+
+.sidebar-widget .produto3{
+    float: left;
+    width: 300px;
+    height: 100px;
+    background: url(img/produto/produto3.png);
+}
+
+.sidebar-widget .produto4{
+    float: left;
+    width: 300px;
+    height: 100px;
+    background: url(img/produto/produto4.png);
+}
+
+.sidebar-widget .produto5{
+    float: left;
+    width: 300px;
+    height: 100px;
+    background: url(img/produto/produto5.png);
+}
+
+.sidebar-widget .anuncio1{
+    float: left;
+    width: 300px;
+    height: 100px;
+    background: url(img/anuncio/anuncio1.jpg);
+    margin-bottom: 30px;
+    margin-top: -10px;
+}
+
+.lastnews-destaque .anuncio2{
+    float: left;
+    width: 100%;
+    height: 300px;
+    background: url(img/anuncio/anuncio2.jpg);
+    margin-bottom: 15px;
+}
+
+.sidebar-widget .anuncio3{
+    float: left;
+    width: 300px;
+    height: 100px;
+    background: url(img/anuncio/anuncio3.jpg);
+    margin-bottom: 30px;
+    margin-top: -10px;
+}
+
+.lastnews-destaque .anuncio4{
+    float: left;
+    width: 100%;
+    height: 300px;
+    background: url(img/anuncio/anuncio4.jpg);
+    margin-bottom: 15px;
+}
+
+.sidebar-widget .anuncio5{
+    float: left;
+    width: 300px;
+    height: 100px;
+    background: url(img/anuncio/anuncio5.jpg);
+    margin-bottom: 30px;
+    margin-top: -10px;
+}
+
+.lastnews-destaque .anuncio6{
+    width: 100%; /* Largura total do elemento */
+    height: 300px; /* Altura fixa de 300px */
+    background: url(img/anuncio/anuncio6.jpg);
+    margin: 0 auto 20px; /* Centraliza horizontalmente e adiciona espaço na parte inferior */
+    background-repeat: no-repeat;
+    background-size: cover; /* Mantém a imagem cobrindo o fundo */
+    background-position: center; /* Centraliza a imagem */
+}
+
+.sidebar-widget .capa{
+    float: left;
+    width: 300px;
+    height: 100px;
+    background: url(img/capa/capa.png);
+    margin-bottom: 30px;
+    margin-top: -10px;
+}
+
+.categoria{
+    list-style: none;
+    border-bottom: 1px solid #00CED1;
+}
+
+.categoria li{
+    padding: 10px;
+}
+
+i {
+    color: #000;
+}
+
+.main_footer {
+    display: block;
+    background: #2756a5;
+    text-align: center;
+    color: #fff;
+    line-height: 40px;
+    padding-top: 40px; /* Define o padding apenas na parte superior */
+    padding-bottom: 40px; /* Define o padding apenas na parte inferior */
+    float: left;
+    width: 100%;
+}

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FoxStation</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <script>
+        window.onload = function(){
+            slide1();
+        };
+        function slide1() {
+            document.getElementById('img').src = 'img/slide/slide1.jpg';
+            setTimeout('slide3()', 3000);
+        }
+        function slide2() {
+            document.getElementById('img').src = 'img/slide/slide2.jpg';
+            setTimeout('slide1()', 3000);
+        }
+        function slide3() {
+            document.getElementById('img').src = 'img/slide/slide3.jpg';
+            setTimeout('slide2()', 3000);
+        }
+    </script>
+</head>
+<body>
+    <header class="container main_header">
+        <div class="content">
+            <img src="img/logo/logo.png" title="img/logo/logo.png" alt="img/logo/logo.png">
+            <form method="post" action="" class="main_header_search">
+            <input type="search" class="s" name="search" placeholder="Pesquisar Continuar:">
+            <button type="submit" class="b">
+            Ir
+            </button>
+        </form>
+        <div class="clear"></div>
+        </div>
+        <div class="main_menu">
+            <nav class="content">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="artigo1.html">Artigos</a></li>
+                    <li><a href="loja1.html">Loja</a></li>
+                    <li><a href="contato1.html">Contato</a></li>
+                    <li><a href="sobrenos1.html">Sobre nós</a></li>
+                    <li><a href="video1.html">Vídeo</a></li>
+                </ul>
+                <div class="clear"></div>
+            </nav>
+        </div>
+        <div class="container slider">
+            <img id="img">
+        </div>
+    </header>
+    <main class="container">
+        <div class="content">
+            <section class="lastnews">
+                <header class="title-section">
+                    <h1>Jogos</h1>
+                </header>
+
+                <article class="lastnews-destaque">
+                    <header>
+                        <div class="index1"></div>
+                        <h1>God of War</h1>
+                    </header>
+                    <p>God of War é um jogo eletrônico de ação-aventura desenvolvido pela Santa Monica Studio e publicado pela Sony Interactive Entertainment.
+                        <a href="jogo1.html" title="Leia mais sobre nossas promoções">Leia mais...</a></p>
+                </article>
+
+                <article class="lastnews-article">
+                    <header>
+                        <div class="index2"></div>
+                        <h1>Grand Theft Auto V</h1>
+                    </header>
+                    <p>Descrição Grand Theft Auto V é um jogo eletrônico de ação-aventura desenvolvido pela Rockstar North e publicado pela Rockstar Games.
+                        <a href="jogo2.html" title="Leia mais sobre">Leia mais...</a>
+                    </p>
+                </article>
+                <article class="lastnews-article">
+                    <header>
+                        <div class="index3"></div>
+                        <h1>Horizon Zero Dawn</h1>
+                    </header>
+                    <p>Horizon Zero Dawn é um jogo eletrônico de ação desenvolvido pela Guerrilla Games e publicado pela Sony Interactive Entertainment exclusivamente para o PlayStation 4 lançado em 28 de fevereiro de 2017.
+                        <a href="jogo3.html" title="Leia mais sobre">Leia mais...</a>
+                    </p>
+                </article>
+                <article class="lastnews-article">
+                    <header>
+                        <div class="index4"></div>
+                        <h1>Uncharted 4: A Thief's End</h1>
+                    </header>
+                    <p>Uncharted 4: A Thief's End é um jogo eletrônico de acção-aventura produzido pela Naughty Dog. Foi lançado no dia 10 de maio de 2016 pela Sony Computer Entertainment sendo um exclusivo para PlayStation 4.
+                        <a href="jogo4.html" title="Leia mais sobre">Leia mais...</a>
+                    </p>
+                </article>
+                <article class="lastnews-article">
+                    <header>
+                        <div class="index5"></div>
+                        <h1>Assassin's Creed Odyssey</h1>
+                    </header>
+                    <p>Assassin's Creed Odyssey é um jogo eletrônico de RPG de ação produzido pela Ubisoft Quebec e publicado pela Ubisoft. É o décimo primeiro título principal da série Assassin's Creed e foi lançado em 5 de Outubro de 2018, para Microsoft Windows, PlayStation 4, Xbox One e Nintendo Switch.
+                        <a href="jogo5.html" title="Leia mais sobre">Leia mais...</a>
+                    </p>
+
+                </article>
+            </section>
+            <aside class="sidebar">
+                <header class="title-section">
+                    <h1>Super Promoções:</h1>
+                </header>
+                
+                <article class="sidebar-widget">
+                    <header>
+                        
+                        <h1>Playstation 4 Slim</h1>
+                    </header>
+                    <p>Console Playstation 4 Slim Sony500gb Original Bivolt. Não perca!!!
+                        <a href="loja2.html" title="Leia mais sobre"> R$1999,99</a>
+                    </p>
+                    <div class="produto1"></div>          
+                </article>
+
+                <article class="sidebar-widget">
+                    <header>
+
+                        <h1>Kit FIFA 20 e Marvel Spider-man</h1>
+                    </header>
+                    <p>Dois incríveis jogos para Playstation 4. Não perca!!!
+                        <a href="loja4.html" title="Leia mais sobre"> R$399,98</a>
+                    </p>
+                    <div class="produto2"></div>
+                </article>
+
+                <article class="sidebar-widget">
+                    <header>
+                        
+                        <h1>Controle Playstation 4</h1>
+                    </header>
+                    <p>Controle Dualshock para Playstation 4 Sem Fio. Não perca!!!
+                        <a href="loja3.html" title="Leia mais sobre"> R$199,99</a>
+                    </p>
+                    <div class="produto3"></div>
+                </article>
+
+                <article class="sidebar-widget">
+                    <header>
+                        
+                        <h1>Kit Mortal Kombat 11 e Call Of Duty Black Ops 4</h1>
+                    </header>
+                    <p>Dois incríveis jogos para Playstation 4. Não perca!!!
+                        <a href="loja4.html" title="Leia mais sobre"> R$309,98</a>
+                    </p>
+                    <div class="produto4"></div>
+                </article>
+
+                <article class="sidebar-widget">
+                    <header>
+                        
+                        <h1>Kit Playstation 4 Marvel Spider Man</h1>
+                    </header>
+                    <p>Controle + Console Playstation 4 Personalizado Marvel Spider Man Sony1024GB Original. Não perca!!!
+
+                        <a href="loja5.html" title="Leia mais sobre"> R$2499,99</a>
+                    </p>
+                    <div class="produto5"></div>
+                </article>
+            </aside>
+
+            <div class="clear"></div>
+        </div>
+    </main>
+    <footer class="main_footer">
+        &copy; 2019 Todos Os Direitos Reservados
+    </footer>
+</body>
+</html>
